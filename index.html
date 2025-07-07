@@ -1,112 +1,141 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="es">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Talento Joven IT - Presentación del Equipo</title>
     <link rel="stylesheet" href="presentacion.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <style>
-        *{
-    margin: 0;
-    padding: 0;}
-    html {
-  scroll-behavior: smooth;
-}
-    </style>
-  </head>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-  <body>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-            <div class="container-fluid ">
-                <a class="navbar-brand text-white" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Talento Joven IT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-white-50" href="#1">Integrantes</a>
+                            <a class="nav-link text-white-50" href="#equipo">Integrantes</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-white-50" href="#">Contacto</a>
+                            <a class="nav-link text-white-50" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <br><br><br>
-        <div>
-            <h1 id="1" class="d-flex justify-content-center">
-                Nombre del Grupo (cambiar tipografia a una cool)
-            </h1>
-            <h3>El grupo consiste en 4 alumnos de la escuela tecnica dos bla bla bla</h3>
+        <div class="text-center mt-5">
+            <h1 id="equipo">Equipo: Los Innovadores</h1>
+            <h3 class="mt-3">Somos un equipo de estudiantes de la Escuela Técnica N°2 enfocados en crear soluciones
+                tecnológicas para clientes reales. Este portal presenta nuestros perfiles técnicos y humanos.</h3>
         </div>
     </header>
-    <article>
-        <section>
-            <h1 class="d-flex justify-content-center"> Joaquín Miraglio</h1>
+
+    <article class="container mt-5">
+        <!-- Joaquín Miraglio -->
+        <section class="mb-5">
+            <h1 class="d-flex justify-content-center">Joaquín Miraglio</h1>
             <div class="card text-center">
                 <div class="card-header">
-                    ROL EN GRUPO, ROL EN GRUPO, ROL EN GRUPO
+                    Frontend Developer - Git Master
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Perfil Técnico / Humano</h5>
-                    <p class="card-text">Mandar a chatgpt y que verseé un poco con las caracteristicas del CV</p>
-                    <a href="#" class="btn btn-success">Link de CV</a>
+                    <p class="card-text">Responsable del diseño y desarrollo de la interfaz del sitio web. Se destaca
+                        por su creatividad, liderazgo en el control de versiones y compromiso con la calidad del
+                        producto final.</p>
+                    <a href="cvs/joaquin_miraglio.pdf" class="btn btn-success" target="_blank">Ver CV</a>
                 </div>
             </div>
         </section>
-        <br><br>
-        <section>
-            <h1 class="d-flex justify-content-center"> Lautaro Valentín Michou</h1>
+
+        <!-- Lautaro Valentín Michou -->
+        <section class="mb-5">
+            <h1 class="d-flex justify-content-center">Lautaro Valentín Michou</h1>
             <div class="card text-center">
                 <div class="card-header">
-                    ROL EN GRUPO, ROL EN GRUPO, ROL EN GRUPO
+                    Backend Developer - Documentación
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Perfil Técnico / Humano</h5>
-                    <p class="card-text">Mandar a chatgpt y que verseé un poco con las caracteristicas del CV</p>
-                    <a href="#" class="btn btn-success">Link de CV</a>
+                    <p class="card-text">Especialista en lógica y funcionamiento interno del sistema. Apasionado por la
+                        organización y la redacción de documentación clara y detallada para todo el equipo.</p>
+                    <a href="cvs/lautaro_valentin_michou.pdf" class="btn btn-success" target="_blank">Ver CV</a>
                 </div>
             </div>
         </section>
-        <br><br>
-        <section>
-            <h1 class="d-flex justify-content-center"> Aldana Molina Meier</h1>
+
+        <!-- Aldana Molina Meier -->
+        <section class="mb-5">
+            <h1 class="d-flex justify-content-center">Aldana Molina Meier</h1>
             <div class="card text-center">
                 <div class="card-header">
-                    ROL EN GRUPO, ROL EN GRUPO, ROL EN GRUPO
+                    Content Manager - Diseño UI
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Perfil Técnico / Humano</h5>
-                    <p class="card-text">Mandar a chatgpt y que verseé un poco con las caracteristicas del CV</p>
-                    <a href="#" class="btn btn-success">Link de CV</a>
+                    <p class="card-text">Encargada de la generación y organización del contenido del sitio. Se destaca
+                        por su sensibilidad estética, comunicación efectiva y trabajo colaborativo.</p>
+                    <a href="cvs/aldana_molina_meier.pdf" class="btn btn-success" target="_blank">Ver CV</a>
                 </div>
             </div>
         </section>
-        <br><br>
-        <section>
-            <h1 class="d-flex justify-content-center"> Vito Vignoli</h1>
+
+        <!-- Vito Vignoli -->
+        <section class="mb-5">
+            <h1 class="d-flex justify-content-center">Vito Vignoli</h1>
             <div class="card text-center">
                 <div class="card-header">
-                    ROL EN GRUPO, ROL EN GRUPO, ROL EN GRUPO
+                    QA Tester - Control de Versiones
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Perfil Técnico / Humano</h5>
-                    <p class="card-text">Mandar a chatgpt y que verseé un poco con las caracteristicas del CV</p>
-                    <a href="#" class="btn btn-success">Link de CV</a>
+                    <p class="card-text">Responsable del control de calidad y la correcta integración de las versiones.
+                        Destaca por su atención al detalle, responsabilidad y capacidad para trabajar bajo presión.</p>
+                    <a href="cvs/vito_vignoli.pdf" class="btn btn-success" target="_blank">Ver CV</a>
                 </div>
             </div>
         </section>
     </article>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="mt-5 text-center">
+        <h2>Contacto</h2>
+        <p>Para más información, podés escribirnos a: <strong>equipo.talento.joven@gmail.com</strong></p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
