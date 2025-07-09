@@ -33,7 +33,7 @@ El equipo está conformado por cuatro integrantes, cada uno con un rol definido 
 # Resolución de conflictos
 
 Durante el trabajo en equipo surgieron algunos conflictos, principalmente relacionados con:
-- Fusión de ramas con modificaciones distintas en el mismo archivo.
+- Fusión de ramas con modificaciones distintas en el mismo archivo (como el commit "eliminar linea que provoca conflicto" realizado por Vito Vignoli).
 - Diferencias en la estructura de carpetas o nombres de archivos.
 
 Para resolverlos:
